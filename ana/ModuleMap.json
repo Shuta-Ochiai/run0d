@@ -1,0 +1,802 @@
+{
+    "101_P_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-063-216-06",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-063-248-08",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-064-000-05",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-064-016-02",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-063-224-15",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-063-240-08",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-064-024-02",
+        "adc_to_charge": "path"
+    },
+    "101_P_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-063-208-06",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-055-232-03",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-055-224-03",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-064-008-05",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-055-248-04",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-063-232-15",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-038-048-10",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-063-200-01",
+        "adc_to_charge": "path"
+    },
+    "101_N_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-055-240-04",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-059-112-04",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-059-120-04",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-060-072-05",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-059-152-05",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-058-176-06",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-054-016-08",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-059-096-03",
+        "adc_to_charge": "path"
+    },
+    "102_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-040-168-14",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-053-016-06",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-052-232-13",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-053-032-15",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-058-136-15",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-053-024-06",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-052-208-04",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-052-248-10",
+        "adc_to_charge": "path"
+    },
+    "102_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-052-240-10",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-054-200-00",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-055-000-02",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-055-208-10",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-054-224-14",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-055-008-02",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-054-184-12",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-063-088-12",
+        "adc_to_charge": "path"
+    },
+    "103_P_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-054-248-09",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-054-168-11",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-054-240-09",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-038-104-08",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-055-040-12",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-054-208-07",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-028-192-14",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-054-216-07",
+        "adc_to_charge": "path"
+    },
+    "103_N_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-055-104-09",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-052-112-00",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-052-184-15",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-053-000-01",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-052-136-06",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-052-224-13",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-052-104-07",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-052-192-03",
+        "adc_to_charge": "path"
+    },
+    "104_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-052-168-08",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-052-120-00",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-052-088-14",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-052-128-06",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-054-000-15",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-052-096-07",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-053-248-07",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-052-160-08",
+        "adc_to_charge": "path"
+    },
+    "104_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-055-192-13",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-053-224-00",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-059-104-03",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-043-152-09",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-058-048-12",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-054-040-01",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-058-240-03",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-054-008-15",
+        "adc_to_charge": "path"
+    },
+    "106_P_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-058-144-08",
+        "adc_to_charge": "path"
+    },
+    "106_N_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-059-024-15",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-024-15_addr7_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-059-048-01",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-048-01_addr6_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-059-088-10",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-088-10_addr5_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-059-056-01",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-056-01_addr4_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-059-072-13",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-072-13_addr3_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-059-064-13",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-064-13_addr2_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-059-008-08",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-008-08_addr1_ADCtoCharge.csv"
+    },
+    "106_N_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-059-080-10",
+        "adc_to_charge": "../pscan_106_202306212131_ALineOnly_FMOFF/pscan_XA-000-08-001-064-059-080-10_addr0_ADCtoCharge.csv"
+    },
+    "107_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-038-064-06",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-063-072-11",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-028-144-12",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-015-016-04",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-028-152-12",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-028-224-00",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-038-120-15",
+        "adc_to_charge": "path"
+    },
+    "107_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-028-176-02",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-055-048-11",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-055-056-11",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-055-016-05",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-055-024-05",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-055-136-08",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-055-080-00",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-055-168-06",
+        "adc_to_charge": "path"
+    },
+    "107_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-055-088-00",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-058-104-14",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-058-088-07",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-058-080-07",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-058-056-12",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-058-096-14",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-058-064-00",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-058-128-15",
+        "adc_to_charge": "path"
+    },
+    "108_P_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-058-072-00",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-057-240-13",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-058-032-11",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-058-120-09",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-058-000-05",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-058-016-02",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-058-008-05",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-058-040-11",
+        "adc_to_charge": "path"
+    },
+    "108_N_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-057-232-10",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-055-112-14",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-055-144-15",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-055-152-15",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-055-176-01",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-055-120-14",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "na-000-03-000-000-000-000-00",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-055-128-08",
+        "adc_to_charge": "path"
+    },
+    "109_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-055-032-12",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-055-160-06",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-063-080-12",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-055-200-13",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-063-040-00",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-054-192-00",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-044-080-14",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-055-096-09",
+        "adc_to_charge": "path"
+    },
+    "109_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-043-176-07",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-059-040-06",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-059-016-15",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-058-224-04",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-058-216-13",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-058-248-03",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-057-216-03",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-059-032-06",
+        "adc_to_charge": "path"
+    },
+    "206_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-058-192-10",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-058-208-13",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-058-160-01",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-058-200-10",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-058-184-06",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-058-232-04",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-058-152-08",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-058-168-01",
+        "adc_to_charge": "path"
+    },
+    "206_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-058-112-09",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No0": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-061-104-06",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No1": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-061-112-01",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No2": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-061-128-07",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No3": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-053-192-14",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No4": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-061-064-08",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No5": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-053-136-11",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No6": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-053-152-12",
+        "adc_to_charge": "path"
+    },
+    "207_P_ASIC_No7": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-053-168-05",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No0": {
+        "ASIC_Addr": 1,
+        "Efuse": "XA-000-08-001-064-061-104-06",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No1": {
+        "ASIC_Addr": 0,
+        "Efuse": "XA-000-08-001-064-061-112-01",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No2": {
+        "ASIC_Addr": 3,
+        "Efuse": "XA-000-08-001-064-061-128-07",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No3": {
+        "ASIC_Addr": 2,
+        "Efuse": "XA-000-08-001-064-053-192-14",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No4": {
+        "ASIC_Addr": 5,
+        "Efuse": "XA-000-08-001-064-061-064-08",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No5": {
+        "ASIC_Addr": 4,
+        "Efuse": "XA-000-08-001-064-053-136-11",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No6": {
+        "ASIC_Addr": 7,
+        "Efuse": "XA-000-08-001-064-053-152-12",
+        "adc_to_charge": "path"
+    },
+    "207_N_ASIC_No7": {
+        "ASIC_Addr": 6,
+        "Efuse": "XA-000-08-001-064-053-168-05",
+        "adc_to_charge": "path"
+    }
+}
