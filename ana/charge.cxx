@@ -133,8 +133,17 @@ void charge(const char* inputfile_root){
 	TH1D* phist1_P[module_No];
 	TH1D* phist1_N[module_No];
 	// mean_strip
-	TH2D* mean_strip_hist1_P[module_No];
-	TH2D* mean_strip_hist1_N[module_No];
+	TGraph* mean_strip_g1_P[module_No];
+	TGraph* mean_strip_g1_N[module_No];
+	TGraph* mean_strip_g1_N_double[module_No];
+	TGraph* mean_strip_g1_N_triple[module_No];
+	TGraph* mean_strip_g1_N_quad[module_No];
+	TGraph* mean_strip_g1_N_quint[module_No];
+	TGraph* mean_strip_g1_N_sext[module_No];
+	TGraph* mean_strip_g1_N_sept[module_No];
+
+	TH1D* serial_strip_num_hist = new TH1D("serial strip num", "serial strip num", 20, 0, 20);
+
 	// adc
 	TH1D* ahist1_P[module_No][asic_No][strip_ch];
 	TH1D* ahist1_N[module_No][asic_No][strip_ch];
@@ -161,15 +170,38 @@ void charge(const char* inputfile_root){
 		//phist1_N[m_i]->GetYaxis()->SetRangeUser(0,1e6);
 		
 		// mean_strip_hist *******************************************
-		mean_strip_hist1_P[m_i] = new TH2D(Form("mean_strip 10%d_P", m_i), Form("mean_strip 10%d_P", m_i), 1000, -5, 5, 100, 0, 1);
-		mean_strip_hist1_P[m_i]->GetXaxis()->SetTitle("weighted_mean_strip - strip");
-		mean_strip_hist1_P[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+		mean_strip_g1_P[m_i] = new TGraph(Form("mean_strip 10%d_P", m_i), Form("mean_strip 10%d_P", m_i), 1000, -5, 5, 100, 0, 1);
+		mean_strip_g1_P[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_P[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
 		
-		mean_strip_hist1_N[m_i] = new TH2D(Form("mean_strip 10%d_N", m_i), Form("mean_strip 10%d_N", m_i), 1000, -5, 5, 100, 0, 1);
-		mean_strip_hist1_N[m_i]->GetXaxis()->SetTitle("weighted_mean_strip - strip");
-		mean_strip_hist1_N[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+		mean_strip_g1_N[m_i] = new TGraph(Form("mean_strip 10%d_N", m_i), Form("mean_strip 10%d_N", m_i), 1000, -5, 5, 100, 0, 1);
+		mean_strip_g1_N[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
 		
+		mean_strip_g1_N_double[m_i] = new TGraph(Form("mean_strip double 10%d_N", m_i), Form("mean_strip double 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_double[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_double[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
 		
+		mean_strip_g1_N_triple[m_i] = new TGraph(Form("mean_strip triple 10%d_N", m_i), Form("mean_strip triple 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_triple[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_triple[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+		
+		mean_strip_g1_N_quad[m_i] = new TGraph(Form("mean_strip quadruple 10%d_N", m_i), Form("mean_strip quadruple 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_quad[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_quad[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+		
+		mean_strip_g1_N_quint[m_i] = new TGraph(Form("mean_strip quintuple 10%d_N", m_i), Form("mean_strip quintuple 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_quint[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_quint[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+		
+		mean_strip_g1_N_sext[m_i] = new TGraph(Form("mean_strip sextuple 10%d_N", m_i), Form("mean_strip sextuple 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_sext[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_sext[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+
+		mean_strip_g1_N_sept[m_i] = new TGraph(Form("mean_strip septuple 10%d_N", m_i), Form("mean_strip septuple 10%d_N", m_i), 10, -5, 5, 10, 0, 1);
+		mean_strip_g1_N_sept[m_i]->GetXaxis()->SetTitle("strip - weighted_mean_strip");
+		mean_strip_g1_N_sept[m_i]->GetYaxis()->SetTitle("Charge_for_each_strip/ALL_Charge");
+	
 		for (int asic_i=0; asic_i<asic_No; asic_i++){
 			for (int s_i=0; s_i<strip_ch; s_i++){
 				//adc hist **********************************************
@@ -208,6 +240,7 @@ void charge(const char* inputfile_root){
 
 	int tdc_pre=0;
 	int strip_pre=0;
+	double charge_pre;
 	int same_evt_flag = 0;
 	double same_evt_strip[1000];
 	double same_evt_charge[1000];
@@ -217,8 +250,11 @@ void charge(const char* inputfile_root){
 	double weighted_mean_strip;
 	double strip_diff;
 	double charge_contri;
-	
-	
+	int finisher_flag[7];
+	for(int i=1; i<7; i++){
+		finisher_flag[i] = 0;
+	}	
+
 	int Entry = tree->GetEntries();
 	for(int ent_i = 0; ent_i<Entry; ent_i++){
 		tree->GetEntry(ent_i);
@@ -247,28 +283,60 @@ void charge(const char* inputfile_root){
 						chist_all->Fill(evt_charge);
 					}
 
-					if(tdcL10b->at(evt_i)==tdc_pre && TMath::Abs(strip_pre-evt_strip)<=1){
-						same_evt_strip[same_evt_cnt] = evt_strip;
-						same_evt_charge[same_evt_cnt] = evt_charge;
+					if(tdcL10b->at(evt_i)==tdc_pre && TMath::Abs(strip_pre-evt_strip)==1 && eventMissed->at(evt_i)==0){
+						if(same_evt_cnt == 0){
+							same_evt_charge[same_evt_cnt] = charge_pre;
+							weighted_strip += strip_pre*charge_pre;
+							same_evt_charge_all += charge_pre;
+						}
+						same_evt_strip[same_evt_cnt+1] = evt_strip;
+						same_evt_charge[same_evt_cnt+1] = evt_charge;
 						weighted_strip += evt_strip*evt_charge;
 						same_evt_charge_all += evt_charge;
 						same_evt_cnt += 1; 
 						same_evt_flag = 1;
 					}
-					if( (same_evt_flag==1) && (tdc_pre!= tdcL10b->at(evt_i)) ){
+					if( (same_evt_flag==1) && (tdc_pre!= tdcL10b->at(evt_i))){
+						serial_strip_num_hist->Fill(same_evt_cnt+1);
 						weighted_mean_strip = weighted_strip / same_evt_charge_all;
-						for(int same_evt_i=0; same_evt_i<same_evt_cnt; same_evt_i++){
-							strip_diff = weighted_mean_strip - same_evt_strip[same_evt_i];
+						for(int same_evt_i=0; same_evt_i<=same_evt_cnt; same_evt_i++){
+							strip_diff = same_evt_strip[same_evt_i] - weighted_mean_strip;
 							charge_contri = same_evt_charge[same_evt_i] / same_evt_charge_all;
 							mean_strip_hist1_N[6]->Fill(strip_diff, charge_contri);
+							if(same_evt_cnt == 1 && finisher_flag[1] <= 1){
+								mean_strip_hist1_N_double[6]->Fill(strip_diff, charge_contri);
+								finisher_flag[1] += 1;
+							}
+							else if(same_evt_cnt == 2 && finisher_flag[2] <= 2 ){	
+								mean_strip_hist1_N_triple[6]->Fill(strip_diff, charge_contri);
+								finisher_flag[2] += 1;
+								}
+							else if(same_evt_cnt == 3 && finisher_flag[3] <= 3){
+								mean_strip_hist1_N_quad[6]->Fill(strip_diff, charge_contri);
+								finisher_flag[3] += 1;
+							}
+							else if(same_evt_cnt == 4 && finisher_flag[4] <= 4){
+								mean_strip_hist1_N_quint[6]->Fill(strip_diff, charge_contri);
+								finisher_flag[4] += 1;
+							}
+							else if(same_evt_cnt == 5 && finisher_flag[5] <= 5){
+								mean_strip_hist1_N_sext[6]->Fill(strip_diff, charge_contri);							
+								finisher_flag[5] += 1;
+							}
+							else if(same_evt_cnt == 6 && finisher_flag[6] <=6 ){
+								mean_strip_hist1_N_sept[6]->Fill(strip_diff, charge_contri);
+								finisher_flag[6] += 1;
+							}
 						}
+					
 						weighted_strip = 0;
 						same_evt_charge_all = 0;
 						same_evt_cnt = 0;
-						same_evt_flag = 1;
+						same_evt_flag = 0;
 					}
 					tdc_pre = tdcL10b->at(evt_i);
 					strip_pre = evt_strip;
+					charge_pre = evt_charge;
 				}
 			}//106 ********************************************************************
 
@@ -352,9 +420,37 @@ void charge(const char* inputfile_root){
 	chist_all->Draw();
 	chist_all->Fit("landau");
 	c1->Print(charge_pdf);
-
 	c1->Clear();
+
 	mean_strip_hist1_N[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+
+	mean_strip_hist1_N_double[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+
+	mean_strip_hist1_N_triple[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+
+	mean_strip_hist1_N_quad[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+	
+	mean_strip_hist1_N_quint[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+	
+	mean_strip_hist1_N_sext[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+	
+	mean_strip_hist1_N_sept[6]->Draw("colz");
+	c1->Print(charge_pdf);
+	c1->Clear();
+
+	serial_strip_num_hist->Draw();
 	c1->Print(charge_pdf);
 
 	c1->Print(charge_pdf + "]");
